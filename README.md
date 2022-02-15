@@ -6,7 +6,7 @@ Copy `sample.env` to `.env`.
 
 # RUN
 
-`go run .`
+`go run main.go`
 
 # API Test
 ```
