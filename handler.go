@@ -7,7 +7,7 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
-func UploadFileHandler1(c echo.Context) error {
+func UploadFileHandler(c echo.Context) error {
 	// name := c.FormValue("name")
 	// email := c.FormValue("email")
 	form, err := c.MultipartForm()
