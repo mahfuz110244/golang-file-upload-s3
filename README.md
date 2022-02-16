@@ -1,4 +1,5 @@
-## How to upload multiple files in AWS S3 Bucket in Golang
+## How to upload single file in AWS S3 Bucket using Golang
+## How to upload multiple files in AWS S3 Bucket using Golang
 
 # SETUP
 
