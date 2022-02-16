@@ -1,10 +1,11 @@
 package main
 
 type Response struct {
-	Success bool         `json:"success"`
-	Message string       `json:"message,omitempty"`
-	Errors  []FieldError `json:"errors,omitempty"`
-	Data    interface{}  `json:"data,omitempty"`
+	StatusCode int          `json:"status_code"`
+	Success    bool         `json:"success"`
+	Message    string       `json:"message,omitempty"`
+	Errors     []FieldError `json:"errors,omitempty"`
+	Data       interface{}  `json:"data,omitempty"`
 }
 
 type FieldError struct {
@@ -13,8 +14,10 @@ type FieldError struct {
 }
 
 type FileUploadResponse struct {
-	Name      string `json:"name"`
-	Url       string `json:"url"`
-	Size      int    `json:"size"`
-	Extension string `json:"extension"`
+	Name         string `json:"name"`
+	Url          string `json:"url"`
+	Size         int    `json:"size"`
+	Extension    string `json:"extension"`
+	UploadStatus bool   `json:"upload_status"`
+	Message      string `json:"message,omitempty"`
 }

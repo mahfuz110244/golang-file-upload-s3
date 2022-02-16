@@ -12,7 +12,8 @@ func main() {
 	e.Use(middleware.Recover())
 
 	e.Static("/", "public")
-	e.POST("/upload", UploadFileHandler)
+	e.POST("/upload", UploadSingleFileHandler)
+	e.POST("/upload/bulk", UploadBulkFileHandler)
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
