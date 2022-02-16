@@ -2,7 +2,7 @@
 
 # SETUP
 
-Copy `sample.env` to `.env`.
+Copy `sample.env` to `.env` and update config file according to your AWS configuration
 
 # RUN
 
