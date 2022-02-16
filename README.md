@@ -24,7 +24,7 @@ Response
     "success": true,
     "data": {
         "name": "Fuz",
-        "url": "https://gorillamove.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-30-57AM-85C8D8-Fuz.jpg",
+        "url": "https://bucketname.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-30-57AM-85C8D8-Fuz.jpg",
         "size": 41064,
         "extension": ".jpg",
         "upload_status": true,
@@ -50,7 +50,7 @@ Response
     "data": [
         {
             "name": "Fuz",
-            "url": "https://gorillamove.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-29-07AM-0ED7EA-Fuz.jpg",
+            "url": "https://bucketname.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-29-07AM-0ED7EA-Fuz.jpg",
             "size": 41064,
             "extension": ".jpg",
             "upload_status": true,
@@ -58,7 +58,7 @@ Response
         },
         {
             "name": "Fuz 2x",
-            "url": "https://gorillamove.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-29-07AM-512B25-Fuz%202x.jpg",
+            "url": "https://bucketname.s3.ap-southeast-1.amazonaws.com/files/16-02-2022-11-29-07AM-512B25-Fuz%202x.jpg",
             "size": 82008,
             "extension": ".jpg",
             "upload_status": true,
